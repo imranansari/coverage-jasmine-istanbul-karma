@@ -9,13 +9,17 @@ module.exports = function(config) {
     ],
     browsers: ['PhantomJS'],
 
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'junit'],
     preprocessors: { '*.js': ['coverage'] },
 
     singleRun: true,
   
     coverageReporter: {
       type: 'text'
+    },
+    
+    junitReporter: {
+      outputFile: 'test-results.xml'
     }
   });
 };
