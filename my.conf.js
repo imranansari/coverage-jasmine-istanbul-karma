@@ -12,6 +12,10 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage'],
     preprocessors: { '*.js': ['coverage'] },
 
-    singleRun: true
+    singleRun: true,
+  
+    coverageReporter: {
+      type: 'text'
+    }
   });
 };
