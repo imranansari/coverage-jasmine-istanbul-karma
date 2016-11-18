@@ -9,7 +9,7 @@ module.exports = function(config) {
     ],
     browsers: ['PhantomJS'],
 
-    reporters: ['progress', 'coverage', 'junit'],
+    reporters: ['progress', 'coverage', 'tap'],
     preprocessors: { '*.js': ['coverage'] },
 
     singleRun: true,
@@ -18,8 +18,9 @@ module.exports = function(config) {
       type: 'text'
     },
     
-    junitReporter: {
-      outputFile: 'test-results.xml'
+    tapReporter: {
+      outputFile: './tap-unit.tap',
+      disableStdout: true
     }
   });
 };
