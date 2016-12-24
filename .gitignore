@@ -2,3 +2,4 @@ node_modules/*
 report/*
 .sonar/*
 /tab-unit.tap
+/sonar_github
