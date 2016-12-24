@@ -13,11 +13,15 @@ module.exports = function(config) {
     preprocessors: { '*.js': ['coverage'] },
 
     singleRun: true,
-  
     coverageReporter: {
-      type: 'text'
+      dir:'report',
+      reporters:[ {
+        subdir:'report-lcov',
+        type:'lcovonly',
+        file:'lcov.dat'
+      }]
     },
-    
+
     tapReporter: {
       outputFile: './tap-unit.tap',
       disableStdout: true
