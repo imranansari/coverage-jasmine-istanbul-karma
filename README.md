@@ -1,6 +1,6 @@
-Test badges: 
-
-[![Quality Gate](http://localhost:9000/api/badges/measure?key=node:coverage-jasmine-istanbul-karma&metric=bugs)](http://localhost:9000/api/badges/measure?key=node:coverage-jasmine-istanbul-karma&metric=bugs)
+badges: 
+Will be visable when sonar-server is accessable publicaly. 
+[![Quality Gate](http://localhost:9000/api/badges/measure?key=node:coverage-jasmine-istanbul-karma&metric=coverage)](http://localhost:9000/api/badges/measure?key=node:coverage-jasmine-istanbul-karma&metric=coverage)
 
 
 This repo contains an example setup for tracking code coverage of [Jasmine](http://pivotal.github.io/jasmine/) tests via [Istanbul](http://gotwarlost.github.io/istanbul/) and [Karma](http://karma-runner.github.io/).
