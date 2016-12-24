@@ -1,0 +1,9 @@
+GITHUB_TOKEN = 95b2f12588c4aa1efcf395bf76c1d10236
+SONAR_TOKEN = 49a927128abb0fafa06cc9c8903fa24fc9a68487
+
+sonar-scanner -Dsonar.analysis.mode=preview \
+                                    -Dsonar.github.pullRequest=1 \
+                                    -Dsonar.github.repository=SargeKhan/coverage-jasmine-istanbul-karma.git \
+                                    -Dsonar.github.oauth=95b2f12588c4aa1efcf395bf76c1d10236 \
+                                    -Dsonar.host.url=http://0.0.0.0:9000/ \
+                                    -Dsonar.login=49a927128abb0fafa06cc9c8903fa24fc9a68487
