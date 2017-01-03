@@ -1,0 +1,3 @@
+ok 1 sqrt should compute the square root of 4 as 2
+ok 2 sqrt should throw an exception if given a negative number
+1..2
