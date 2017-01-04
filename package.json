@@ -1,6 +1,6 @@
 {
   "name": "coverage-jasmine-istanbul-karma",
-  "description": "Example of code coverage of Jasmine tests using Istanbul and Karma",
+  "description": "Example of code coverage of Jasmine tests using Istanbul and Karma in lcov format",
   "main": "sqrt.js",
   "version": "0.0.1",
   "engines": {
